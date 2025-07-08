@@ -4,6 +4,9 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import BackToTopButton from "./components/common/BackToTopButton";
 import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
+import WhatsApp from "./components/common/WhatsApp.jsx";
+
+
 import {
   About,
   AboutTwo,
@@ -101,10 +104,14 @@ function App() {
         </Routes>
       </div>
       <div className="px-[2%]  bg-card-dark border border-card-dark">
+        
         <NewsLetter />
         <div className="mt-10">
           <Footer />
         </div>
+      </div>
+      <div className="mt-10">
+      <WhatsApp/>
       </div>
       <BackToTopButton showButton={showButton} />
     </div>
