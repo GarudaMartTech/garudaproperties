@@ -10,7 +10,7 @@ const Hero = () => {
         backgroundSize: "contain",
       }}
     >
-      <div className="absolute top-0 right-0 rounded-full bg-[#04a7ff]/40 dark:bg-[#04a7ff]/50 w-full h-72 -z-10 blur-[120px]"></div>
+      <div className="absolute top-0 right-0 rounded-full bg-[#04a7ff]/90 dark:bg-[#04a7ff]/50 w-full h-72 -z-10 blur-[100px]"></div>
       <div className="flex-1 basis-[20rem]">
         <h1 className="text-4xl font-bold capitalize md:text-5xl">
           Building Your Dreams <br /> Creating reality.
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex-1 basis-[20rem]">
-        <img src="/images/hero-4.png" alt="" className="w-full" />
+        <img src="/images/hero-4.png" alt="" className="w-full h-full" />
       </div>
     </div>
   );

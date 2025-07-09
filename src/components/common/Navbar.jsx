@@ -54,7 +54,7 @@ const Navbar = () => {
         <img src="/images/geal1.png" alt="Logo" className="w-[55px] h-[55px]" />
         <div className="leading-tight uppercase" style={{ fontFamily: 'Cinzel Decorative' }}>
           <h1 className="text-xl text-indigo-900 font-black tracking-wide">Garudavega Earth & </h1>
-          <p className="text-l text-indigo-800 text-center tracking-wide font-black">
+          <p className="text-l text-[#D14F92] text-center tracking-wide font-black">
             Artha Lysies Pvt Ltd
           </p>
         </div>
