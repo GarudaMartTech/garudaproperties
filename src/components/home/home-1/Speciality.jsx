@@ -2,7 +2,7 @@ import { FiCheck, FiLayers, FiUsers } from "react-icons/fi";
 
 const Speciality = () => {
   return (
-    <div className="">
+    <div className="mb-10">
       <div className="flex flex-wrap gap-10">
         <div className="flex-1 basis-[20rem]">
           {/* <h1 className="sub-heading">about us</h1> */}
@@ -21,8 +21,8 @@ const Speciality = () => {
             collaboratively to ensure that every project is completed on time,
             within budget, and to the highest standards of quality and safety.
           </p>
-          <div className="mt-4">
-            <div className="flex-align-center gap-x-2">
+          <div className="grid grid-cols-2 mt-4">
+            <div className="flex-align-center  gap-x-2">
               <div className="icon-box text-primary !bg-primary/20">
                 <FiCheck />
               </div>
