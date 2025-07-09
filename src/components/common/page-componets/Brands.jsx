@@ -26,54 +26,35 @@ const Brands = () => {
           The pillars of Garuda Group trusted, driven, future-focused.
         </motion.p>
       </div>
-      <div className="flex  items-center justify-center mt-4 sm:mt-10 ">
+      <div className="flex items-center justify-center mb-10 flex-wrap gap-4 mt-4 ">
         <a
-            href="https://www.garudamartindia.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="pl-5 pr-5   bg-red rounded "
-          >
-            <img className="w-[150px] " src="/images/003.jpg" alt="garudamart" />
-          </a>
-          <a
-            href="https://www.garudamartindia.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="pl-5 pr-5  bg-red rounded"
-          >
-            <img className="w-[150px] " src="/images/001.jpg" alt="garudavega" />
-          </a>
-          
-          {/* <a
-            href="https://garudayaan.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="pl-5 pr-5  bg-white rounded"
-          >
-            <img className="w-[200px] " src="/images/Garudayaan1.jpeg" alt="garudayaan" />
-          </a> */}
-        </div>
+          href="https://www.garudamartindia.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-red rounded"
+        >
+          <img
+            className="w-[100px] sm:w-[130px] md:w-[150px]"
+            src="/images/003.jpg"
+            alt="garudamart"
+          />
+        </a>
 
-      {/* <div className="mt-12 flex flex-wrap justify-center gap-8 px-6">
-        {brands.map((image, i) => (
-          <motion.div
-            key={i}
-            className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center  dark:bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: i * 0.2, duration: 0.6 }}
-          >
-            <img
-              src={image}
-              alt={`Brand ${i}`}
-              className="w-16 h-16 md:w-20 md:h-20 object-contain transition-transform duration-300 hover:scale-110"
-            />
-          </motion.div>
-        ))}
-      </div> */}
+        <a
+          href="https://www.garudamartindia.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-red rounded"
+        >
+          <img
+            className="w-[100px] sm:w-[130px] md:w-[150px]"
+            src="/images/001.jpg"
+            alt="garudavega"
+          />
+        </a>
+      </div>
     </div>
   );
 };
 
 export default Brands;
-

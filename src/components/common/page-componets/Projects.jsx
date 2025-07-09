@@ -6,9 +6,9 @@ const Projects = () => {
     <div className="pt-1 pb-1">
       <div className="text-center">
         {/* <h1 className="mx-auto sub-heading">our projects</h1> */}
-        <h1 className="heading">excellent projects both small and complex</h1>
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">excellent projects both small and complex</h1>
       </div>
-      <div className="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-2 gap-4 mt-8 sm:grid-cols-2 md:grid-cols-3">
         {projects.map(({ id, name, number, image }) => (
           <div key={id} className="relative w-full group">
             <div className="overflow-hidden">

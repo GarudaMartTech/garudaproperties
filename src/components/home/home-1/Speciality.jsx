@@ -2,13 +2,14 @@ import { FiCheck, FiLayers, FiUsers } from "react-icons/fi";
 
 const Speciality = () => {
   return (
-    <div className="pt-10 pb-16">
+    <div className="">
       <div className="flex flex-wrap gap-10">
         <div className="flex-1 basis-[20rem]">
           {/* <h1 className="sub-heading">about us</h1> */}
-          <h1 className="heading">We specialize in modern, high-quality  innovations.
-
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+  We specialize in modern, high-quality innovations.
 </h1>
+
           <p className="mt-3">
             GEAL is a fast-growing infrastructure company committed to building
             a modern, sustainable future. With expertise in residential,

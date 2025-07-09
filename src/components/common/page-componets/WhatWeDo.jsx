@@ -6,14 +6,14 @@ const WhatWeDo = () => {
   return (
     <div className="py-5">
       <div className="text-center">
-        <h1 className="heading">Excellence in Every Layer of Development</h1>
+        <h1 className=" text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Excellence in Every Layer of Development</h1>
         <p className="text-lg">
           We specialize in delivering comprehensive infrastructure solutions across multiple <br />
           sectors, tailored to meet the unique needs of each project.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 mt-5 sm:grid-cols-2 md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-4 mt-5 sm:grid-cols-2 md:grid-cols-4">
         {services.map(({ id, name, icon, text, slug }) => (
           <div
             key={id}

@@ -68,7 +68,7 @@ function App() {
       <Navbar />
       <Dropdown />
       <div
-        className="min-h-screen pb-40"
+        className="min-h-screen "
         onClick={handleCloseDropdown}
         onMouseOver={() => dispatch(closeDropdown())}
       >
@@ -110,7 +110,7 @@ function App() {
           <Footer />
         </div>
       </div>
-      <div className="mt-10">
+      <div className="">
       <WhatsApp/>
       </div>
       <BackToTopButton showButton={showButton} />
