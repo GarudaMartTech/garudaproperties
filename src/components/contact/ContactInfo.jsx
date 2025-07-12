@@ -9,16 +9,17 @@ const ContactInfo = () => {
           <FiPhone />
         </div>
         <h1 className="mt-2 text-lg font-semibold">Phone Number</h1>
-        <p>+91 978 832902</p>
-        <p>+91 775 358738</p>
+        <p>+91 6361364607</p>
+        
       </div>
       <div className="text-center">
         <div className="icon-box !h-14 !w-14 !bg-primary text-white mx-auto text-2xl">
           <FiMail />
         </div>
         <h1 className="mt-2 text-lg font-semibold">Email Address</h1>
+         <p>info@garudaproperties.com</p>
         <p>support@garudaproperties.com</p>
-        <p>care@garudaproperties.com</p>
+       
       </div>
       <div className="text-center">
         <div className="icon-box !h-14 !w-14 !bg-primary text-white mx-auto text-2xl">

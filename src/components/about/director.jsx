@@ -30,7 +30,7 @@ const directors = [
     name: "Mr. Venkata Ramana Revuru",
     // title: "Managing Director, Chairman",
      title: " CEO",
-    image: "/images/md.webp",
+    image: "/images/mdsir.jpg",
     description:
       "Mr. Venkata Ramana Revuru is a seasoned business leader with over two decades of expertise in sales, business development, strategic marketing, financial products, and portfolio management. Known for his innovative and results-driven leadership, he has significantly contributed to organizational success and industry growth.",
     roles: [
@@ -67,7 +67,7 @@ const Director = () => {
       </div>
 
       {/* Director Cards */}
-      <div className="space-y-20">
+      <div className="space-y-10 w-full h-full">
         {directors.map((director, index) => (
           <motion.div
             key={index}
@@ -85,7 +85,7 @@ const Director = () => {
               <img
                 src={director.image}
                 alt={director.name}
-                className="rounded-xl w-[250px] md:w-[280px] shadow-lg transform hover:scale-105 transition-transform duration-300"
+                className="rounded-xl w-[250px] md:w-[380px] shadow-lg transform hover:scale-105 transition-transform duration-300"
               />
             </div>
 
