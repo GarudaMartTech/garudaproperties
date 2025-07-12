@@ -2,8 +2,8 @@ const Map = () => {
   return (
     <div>
       <img
-        src="/images/realcontact.webp"
-        alt=""
+        src="/images/realcontact.jpg"
+        alt="contact banner"
         className="w-full h-[400px] object-cover"
       />
     </div>
