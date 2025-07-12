@@ -1,4 +1,4 @@
-import { FiArrowRight } from "react-icons/fi";
+// import { FiArrowRight } from "react-icons/fi";
 
 const NewsLetter = () => {
   return (
@@ -20,7 +20,7 @@ const NewsLetter = () => {
           Focuses on long-term impact and iconic developments.Highlights the reliability and mission-driven approach of GEAL.
           </p>
         </div>
-        <div className="mt-3">
+        {/* <div className="mt-3">
           <div className="justify-center text-black flex-align-center gap-x-2 sm:justify-start">
             <input
               type="text"
@@ -31,7 +31,7 @@ const NewsLetter = () => {
               <FiArrowRight />
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
