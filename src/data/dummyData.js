@@ -654,7 +654,7 @@ export const projects = [
     id: 2,
     name: "Office",
     // number: 23,
-    image: "/images/phase1A.jpeg",
+    image: "/images/phase2.jpg",
   },
   {
     id: 3,
