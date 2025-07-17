@@ -3,9 +3,9 @@
 import React from "react";
 // import {
 //     Feeds,
-    
+
 //     GetInTouch,
-    
+
 //   } from "../components/home/home-1";
 
 // Sample Home Page Component
@@ -14,15 +14,19 @@ export default function Residential() {
     <div className="font-sans bg-white-300">
       {/* Hero Section */}
       <section
-        className="bg-cover bg-center  h-[500px] flex items-center justify-center text-white text-center"
-        style={{ backgroundImage: 'url("/images/jkgb.avif")' }}
+        className="relative bg-contain  bg-center bg-no-repeat w-full h-[400px] md:h-[400px] lg:h-[300px] flex items-center justify-center text-white"
+        // style={{ backgroundImage: 'url("/images/property (39).jpg")' }}
       >
-        <div className="bg-black bg-opacity-50 p-6 rounded-xl">
-          <h1 className="text-4xl text-orange-400 md:text-6xl font-bold mb-4">
+        {/* Dark overlay for readability */}
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+
+        {/* Content */}
+        <div className="relative z-10 px-4 text-center max-w-4xl">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-orange-400 leading-tight">
             Building <span className="text-white">Dreams, Creating</span>{" "}
             Communities
           </h1>
-          <p className="text-lg  md:text-xl">
+          <p className="mt-4 text-base md:text-lg lg:text-xl text-slate-200">
             Sustainable and Modern Residential Infrastructure Development
           </p>
         </div>
@@ -76,23 +80,23 @@ export default function Residential() {
       <section className="py-16 px-6 md:px-20">
         <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
         <div className="grid md:grid-cols-2 gap-10">
-          {[1, 2, 3 , 4].map((project) => (
+          {[1, 2, 3, 4].map((project) => (
             <div
               key={project}
               className="bg-white shadow-md rounded-xl overflow-hidden"
             >
               {/* <img src={`/project${project}.jpg`} alt={`Project ${project}`} className="w-full h-60 object-cover" /> */}
-              <div className="grid grid-cols-1 md:grid-cols- gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <img
-                  src="/images/jkg.avif"
+                  src="/images/property (39).jpg"
                   alt="Plot Development"
                   className="w-full h-70 object-cover"
                 />
-                 <img
-                  src="/images/jkga.avif"
+                {/* <img
+                  src="/images/property (39).jpg"
                   alt="Infrastructure Work"
                   className="w-full 70 object-cover"
-                />
+                /> */}
                 {/*
                 <img
                   src="/images/jkgb.avif"
@@ -107,7 +111,7 @@ export default function Residential() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">
-                  Sunrise Enclave – Pune
+                  G.E.A.L Enclave – Bengaluru
                 </h3>
                 <p className="text-gray-600">
                   60-acre township with roads, sewage, power and amenities built
@@ -151,9 +155,9 @@ export default function Residential() {
           </button>
         </form>
       </section> */}
-       {/* <GetInTouch /> */}
-            
-            {/* <Feeds /> */}
+      {/* <GetInTouch /> */}
+
+      {/* <Feeds /> */}
     </div>
   );
 }
