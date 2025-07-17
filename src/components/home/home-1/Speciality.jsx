@@ -7,8 +7,8 @@ const Speciality = () => {
         <div className="flex-1 basis-[20rem]">
           {/* <h1 className="sub-heading">about us</h1> */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-  We specialize in modern, high-quality innovations.
-</h1>
+            We specialize in modern, high-quality innovations.
+          </h1>
 
           <p className="mt-3">
             GEAL is a fast-growing infrastructure company committed to building
@@ -56,18 +56,23 @@ const Speciality = () => {
               alt=""
               className="rounded-lg w-full sm:h-[400px] object-cover"
             />
-            <div className="absolute -bottom-10 sm:bottom-5 -left-2 md:-left-20">
-              <div className="p-3 bg-white rounded-lg shadow-md w-72 flex-center-between gap-x-3 dark:bg-dark-light">
-                <h1>We have been serving our customers for over many years</h1>
-                <div className="icon-box text-primary !bg-primary/20">
+            <div className="absolute -bottom-10 sm:bottom-5 -left-2 md:-left-20 w-full px-4 sm:px-0">
+              {/* Box 1 */}
+              <div className="p-3 bg-white rounded-lg shadow-md w-full sm:w-72 flex items-center justify-between gap-3 ml-4 sm:ml-8 dark:bg-dark-light">
+                <h1 className="text-sm sm:text-base leading-snug">
+                  We have been serving our customers for over many years
+                </h1>
+                <div className="icon-box text-primary !bg-primary/20 text-lg sm:text-xl">
                   <FiUsers />
                 </div>
               </div>
-              <div className="p-3 mt-4 ml-8 bg-white rounded-lg shadow-md w-72 flex-center-between gap-x-3 dark:bg-dark-light">
-                <h1>
+
+              {/* Box 2 */}
+              <div className="p-3 mt-4 bg-white rounded-lg shadow-md w-full sm:w-72 flex items-center justify-between gap-3 ml-6 sm:ml-10 dark:bg-dark-light">
+                <h1 className="text-sm sm:text-base leading-snug">
                   Working with the symbol and reputation of trustworthy trait
                 </h1>
-                <div className="icon-box text-primary !bg-primary/20">
+                <div className="icon-box text-primary !bg-primary/20 text-lg sm:text-xl">
                   <FiLayers />
                 </div>
               </div>

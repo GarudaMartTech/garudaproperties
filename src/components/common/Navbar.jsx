@@ -4,7 +4,7 @@ import { BiMenu } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, NavLink,  } from "react-router-dom";
 import {
-  closeDropdown,
+  // closeDropdown,
   closeSidebar,
   openSidebar,
   toggleDarkMode,
@@ -34,11 +34,11 @@ const Navbar = () => {
     };
   }, [darkMode]);
 
-  const handleClose = (e) => {
-    if (!e.target.classList.contains("link")) {
-      dispatch(closeDropdown());
-    }
-  };
+  // const handleClose = (e) => {
+  //   if (!e.target.classList.contains("link")) {
+  //     dispatch(closeDropdown());
+  //   }
+  // };
 
   const handleCloseSidebar = (e) => {
     if (e.target.classList.contains("mobile-modal")) dispatch(closeSidebar());
@@ -47,7 +47,7 @@ const Navbar = () => {
   return (
     <div
       className="navbar h-[60px] fixed w-full px-[2%] flex-center-between py-[0.35rem] bg-white border-b backdrop-blur-sm  z-50"
-      onMouseOver={handleClose}
+      
     >
       {/* ✅ Logo */}
       <Link to="/Home" className="flex-shrink-0 flex-align-center gap-x-1">

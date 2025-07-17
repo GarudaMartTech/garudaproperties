@@ -44,7 +44,7 @@ export const navLinks = [
       {
         id: 2,
         linkText: "Board Of Directors",
-        url: "/about-2",
+        url: "/board of directors",
       },
     ],
   },
