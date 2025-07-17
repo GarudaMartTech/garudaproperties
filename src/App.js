@@ -36,7 +36,7 @@ import {
 } from "./pages";
 import { closeDropdown } from "./features/uiSlice";
 import Dropdown from "./components/common/DropDown";
-import NewsLetter from "./components/common/NewsLetter";
+// import NewsLetter from "./components/common/NewsLetter";
 import Loader from "./components/common/Loader";
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -105,8 +105,8 @@ function App() {
       </div>
       <div className="px-[2%]  bg-card-dark border border-card-dark">
         
-        <NewsLetter />
-        <div className="mt-10">
+        {/* <NewsLetter /> */}
+        <div className="">
           <Footer />
         </div>
       </div>

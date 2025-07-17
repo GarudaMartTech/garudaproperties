@@ -56,22 +56,22 @@ export const navLinks = [
       {
         id: 1,
         linkText: "Residential",
-        url: "/services",
+        url: "/residential",
       },
       {
         id: 2,
         linkText: "Commercial",
-        url: "/services-2",
+        url: "/commercial",
       },
       {
         id: 3,
         linkText: "Plot Development",
-        url: "/services-2",
+        url: "/plot",
       },
       {
         id: 4,
         linkText: "Industrial",
-        url: "/services-2",
+        url: "/industrial",
       },
     ],
   },
