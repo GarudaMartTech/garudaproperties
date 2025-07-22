@@ -25,7 +25,7 @@ export const property = [
     name: "Garuda group Of Company  ",
     location: "GARUDA MART,CHINTAMANI, KARNATAKA.",
 
-    image: "/images/garuda9.jpg",
+    image: "/images/11.jpg",
   },
   {
     id: 2,

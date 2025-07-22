@@ -44,7 +44,7 @@ const SingleProductCard = ({
     <img
       src={image}
       alt={name}
-      className="w-full h-fit md:h-[350px] object-cover group-hover:scale-125 transition-a"
+      className="w-full h-fit md:h-[400px] object-cover group-hover:scale-125 transition-a"
     />
   )}
 </Link>
@@ -83,10 +83,10 @@ const SingleProductCard = ({
           </div>
         </div> */}
 
-        <div className="mt-4 flex-center-between">
-          {/* <h1 className="text-lg font-semibold text-primary">${price}</h1> */}
+        {/* <div className="mt-4 flex-center-between">
+          
           <button className="btn btn-secondary">details</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
