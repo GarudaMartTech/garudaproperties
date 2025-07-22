@@ -56,7 +56,7 @@ const Footer = () => {
         <div className="grid grid-cols-3 sm:grid-cols-3 gap-10 sm:col-span-3">
           {/* Quick Links */}
           <div>
-            <h2 className="text-lg font-semibold mb-4 text-white">Quick Links</h2>
+            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">Quick Links</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-primary transition duration-300">
@@ -78,7 +78,7 @@ const Footer = () => {
 
           {/* Business */}
           <div>
-            <h2 className="text-lg font-semibold mb-4 text-white">Business</h2>
+            <h2 className="text-lg  sm:text-sm font-semibold mb-4 text-white">Business</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-primary transition duration-300">
@@ -100,7 +100,7 @@ const Footer = () => {
 
           {/* Help & Support */}
           <div>
-            <h2 className="text-lg font-semibold mb-4 text-white">Help & Support</h2>
+            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">Help & Support</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-primary transition duration-300">
