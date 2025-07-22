@@ -121,6 +121,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+       {/* Bottom Bar */}
+      <div className="text-center text-xs mt-10 border-t border-gray-700 pt-4 text-gray-400">
+        © {new Date().getFullYear()} | <span className="text-primary font-medium">garudaproperties.com</span> | All Rights Reserved
+      </div>
     </div>
   );
 };
