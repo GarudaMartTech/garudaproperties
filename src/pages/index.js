@@ -21,6 +21,7 @@ export { default as PortifolioTwo } from "./PortifolioTwo";
 export { default as Team } from "./Team";
 export { default as Faqs } from "./Faqs"; 
 export { default as Plot } from "./Plot";
+export { default as Resin } from "./Resin";
 export { default as Residential  } from "./Residential";
 export { default as Industrial  } from "./Industrial";
 export { default as Commercial  } from "./Commercial";

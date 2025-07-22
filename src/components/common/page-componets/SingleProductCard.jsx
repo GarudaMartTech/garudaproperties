@@ -30,7 +30,7 @@ const SingleProductCard = ({
             className="w-full  h-fit md:h-[250px] object-cover group-hover:scale-125 transition-a"
           />
         </Link> */}
-        <Link to="/" className="!opacity-100">
+        <Link to="/resin" className="!opacity-100">
   {video ? (
     <video
       className="w-full h-fit md:h-[250px] object-cover group-hover:scale-125 transition-a"
@@ -59,7 +59,7 @@ const SingleProductCard = ({
       </div>
       {/* <CardLabels purpose={purpose} distance={distance} /> */}
       <div className="p-3">
-        <Link to="/" className="group-hover:text-primary transition-a">
+        <Link to="/resin" className="group-hover:text-primary transition-a">
           <h1 className="text-lg font-bold capitalize">{name}</h1>
         </Link>
         {/* <div className="flex justify-between mt-3">

@@ -22,6 +22,7 @@ import {
   
   Industrial,
   Plot,
+  Resin,
   Blog,
   BlogTwo,
   BlogThree,
@@ -97,6 +98,7 @@ function App() {
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/home" element={<Home />} />
           <Route path="/plot" element={<Plot />} />
+          <Route path="/resin" element={<Resin />} />
           <Route path="/residential" element={<Residential />} />
           <Route path="/industrial" element={<Industrial />} />
           <Route path="/commercial" element={<Commercial />} />
