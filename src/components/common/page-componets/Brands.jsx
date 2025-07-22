@@ -52,6 +52,18 @@ const Brands = () => {
             alt="garudavega"
           />
         </a>
+        <a
+          href="https://www.garudayaan.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-red rounded"
+        >
+          <img
+            className="w-[100px] sm:w-[130px] md:w-[150px]"
+            src="/images/wellll.jpg"
+            alt="garudavega"
+          />
+        </a>
       </div>
     </div>
   );
