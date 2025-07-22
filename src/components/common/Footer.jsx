@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 text-slate-200 px-6 py-10">
+    <div className="bg-gray-900 text-slate-100 px-6 py-10">
       <footer className="max-w-7xl mx-auto space-y-10">
-        {/* Column 1 - Logo & Address (Always Full Width) */}
+        
+
+        {/* Remaining 3 Columns in a Row */}
+        <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 gap-10">
+          {/* Column 1 - Logo & Address (Always Full Width) */}
         <div className="w-full">
           <Link to="/" className="flex items-center gap-2 mb-4">
             <BiBuildingHouse className="text-4xl text-primary" />
@@ -34,9 +38,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        {/* Remaining 3 Columns in a Row */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
           {/* Quick Links */}
           <div>
             <h2 className="text-lg font-semibold mb-4 text-white">Quick Links</h2>
