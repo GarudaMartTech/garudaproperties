@@ -127,7 +127,7 @@ export default function Residential() {
       {/* <section className="bg-gray-100 py-16 px-6 md:px-20">
         <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
         <form className="max-w-2xl mx-auto grid gap-4">
-          <input
+          <input   
             type="text"
             placeholder="Name"
             className="p-3 rounded border border-gray-300"
