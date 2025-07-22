@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         {/* Second Row on mobile (3 columns stacked or grid based on screen) */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:col-span-3">
+        <div className="grid grid-cols-3 sm:grid-cols-3 gap-10 sm:col-span-3">
           {/* Quick Links */}
           <div>
             <h2 className="text-lg font-semibold mb-4 text-white">Quick Links</h2>
