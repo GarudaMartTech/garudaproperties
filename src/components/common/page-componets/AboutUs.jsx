@@ -16,7 +16,7 @@ const fadeIn = {
 
 const AboutUs = () => {
   return (
-    <div className="pt-16 pb-24 bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="pt-16 pb-24 bg-whiteb px-5 dark:bg-gray-900 transition-colors duration-300">
       {/* Banner */}
       <div className="relative w-full h-[280px] md:h-[380px] rounded-lg overflow-hidden mb-12">
         <img
