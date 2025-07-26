@@ -145,7 +145,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:info@garudaproperties.com"
-                  className="hover:text-primary sm:text-8px transition duration-300"
+                  className=""
                 >
                   📧 info@garudaproperties.com
                 </a>

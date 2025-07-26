@@ -14,7 +14,7 @@ const Brands = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Our Promoters
+          Promoters
         </motion.h1>
         <motion.p
           className="text-gray-600 dark:text-gray-300 text-lg md:text-xl"
