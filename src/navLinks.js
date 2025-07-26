@@ -51,7 +51,7 @@ export const navLinks = [
   {
     id: 3,
     linkText: "Services",
-    url: "/services-2",
+    url: "/residential",
     subLinks: [
       {
         id: 1,
@@ -90,11 +90,11 @@ export const navLinks = [
         linkText: "PROSPERA CRESCENT",
         url: "/property-2",
       },
-      {
-        id: 3,
-        linkText: "Garuda Mart",
-        url: "/property-3",
-      },
+      // {
+      //   id: 3,
+      //   linkText: "Garuda Mart",
+      //   url: "/property-3",
+      // },
       // {
       //   id: 4,
       //   linkText: "Property 4",

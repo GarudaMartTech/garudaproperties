@@ -380,7 +380,7 @@ export const testimonials = [
   {
     id: 1,
     name: "Mr.Ritesh",
-    role: "Full Stack developer",
+    // role: "Full Stack developer",
     // image: "/images/ChatGPT Image Apr 1, 2025, 04_47_15 PM.png",
     reviewText:
       "“Exceptional service and outstanding results. Their attention to detail and commitment to excellence set them apart in the real estate industry.”",
@@ -388,7 +388,7 @@ export const testimonials = [
   {
     id: 2,
     name: "Shaik Shahid Sameer",
-    role: "B.D.M",
+    // role: "B.D.M",
     // image: "/images/avatar-1.png",
     reviewText:
       "“Working with them was a game-changer. Every aspect — from planning to execution — was handled with utmost care and expertise.”",

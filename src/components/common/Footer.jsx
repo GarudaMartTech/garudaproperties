@@ -56,20 +56,31 @@ const Footer = () => {
         <div className="grid grid-cols-3 sm:grid-cols-3 gap-10 sm:col-span-3">
           {/* Quick Links */}
           <div>
-            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">Quick Links</h2>
+            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">
+              Quick Links
+            </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/about-us"
+                  className="hover:text-primary transition duration-300"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/services-2"
+                  className="hover:text-primary transition duration-300"
+                >
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/blog"
+                  className="hover:text-primary transition duration-300"
+                >
                   Blog
                 </a>
               </li>
@@ -78,20 +89,31 @@ const Footer = () => {
 
           {/* Business */}
           <div>
-            <h2 className="text-lg  sm:text-sm font-semibold mb-4 text-white">Business</h2>
+            <h2 className="text-lg  sm:text-sm font-semibold mb-4 text-white">
+              Business
+            </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/contact"
+                  className="hover:text-primary transition duration-300"
+                >
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/termcondition"
+                  className="hover:text-primary transition duration-300"
+                >
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/privacy"
+                  className="hover:text-primary transition duration-300"
+                >
                   Privacy Policy
                 </a>
               </li>
@@ -100,30 +122,43 @@ const Footer = () => {
 
           {/* Help & Support */}
           <div>
-            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">Help & Support</h2>
+            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">
+              Help & Support
+            </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
+                <a
+                  href="/faqspage"
+                  className="hover:text-primary transition duration-300"
+                >
                   FAQs
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
-                  Support Center
+                <a
+                  href="tel:+91 6361364607"
+                  className="hover:text-primary transition duration-300"
+                >
+                  📞 +91 6361364607
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition duration-300">
-                  Live Chat
+                <a
+                  href="mailto:info@garudaproperties.com"
+                  className="hover:text-primary transition duration-300"
+                >
+                  📧 info@garudaproperties.com
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </footer>
-       {/* Bottom Bar */}
+      {/* Bottom Bar */}
       <div className="text-center text-xs mt-10 border-t border-gray-700 pt-4 text-gray-400">
-        © {new Date().getFullYear()} | <span className="text-primary font-medium">garudaproperties.com</span> | All Rights Reserved
+        © {new Date().getFullYear()} |{" "}
+        <span className="text-primary font-medium">garudaproperties.com</span> |
+        All Rights Reserved
       </div>
     </div>
   );

@@ -30,6 +30,9 @@ import {
   Contact,
   Portifolio,
   PortifolioTwo,
+  TermCondition,
+  Privacy,
+  FAQPage,
   Team,
   Faqs,
   Home,
@@ -99,6 +102,9 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/plot" element={<Plot />} />
           <Route path="/resin" element={<Resin />} />
+          <Route path="/termcondition" element={<TermCondition />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/faqspage" element={<FAQPage />} />
           <Route path="/residential" element={<Residential />} />
           <Route path="/industrial" element={<Industrial />} />
           <Route path="/commercial" element={<Commercial />} />

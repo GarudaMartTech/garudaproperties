@@ -25,5 +25,8 @@ export { default as Resin } from "./Resin";
 export { default as Residential  } from "./Residential";
 export { default as Industrial  } from "./Industrial";
 export { default as Commercial  } from "./Commercial";
+export { default as TermCondition  } from "./TermCondition";
+export { default as Privacy  } from "./Privacy";
+export { default as FAQPage  } from "./FAQPage";
 export { default as PageNotFound } from "./PageNotFound"; 
 
