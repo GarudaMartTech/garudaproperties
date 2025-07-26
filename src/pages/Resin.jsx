@@ -1,8 +1,8 @@
 import React from "react";
 // import { motion } from "framer-motion";
  const images = [
-  { src: "/images/1a.jpg", title: "Prospera Crescent - Project Overview", description: "Discover the elegance and architectural excellence of Prospera Crescent, a premium 3 BHK apartment project in the heart of Indiranagar, Bengaluru." },
-  { src: "/images/2a.jpg", title: "Location Map", description: "Strategically located with seamless connectivity to major landmarks including Old Madras Road, HAL Airport Road, and Indiranagar Metro Station." },
+  { src: "/images/1a.jpg", title: " Lifestyle Experience", description: "An unmatched lifestyle with beautiful balconies, serene views, and luxury for the entire family." },
+  { src: "/images/2a.jpg", title: "Prospera Crescent - Project Overview", description: " Discover the elegance and architectural excellence of Prospera Crescent, a premium 3 BHK apartment project in the heart of Indiranagar, Bengaluru." },
   { src: "/images/3.jpg", title: "Building Elevation", description: "Contemporary façade with a harmonious blend of natural elements, lush greenery, and urban design for an enhanced lifestyle." },
   { src: "/images/4.jpg", title: "Specifications", description: "Top-notch construction with RCC framed structure, branded sanitary ware, CPVC plumbing, 3-track UPVC windows, and premium floor tiling." },
   { src: "/images/5.jpg", title: "3D Flat Views", description: "Modern 3D interiors showcasing spacious living rooms, modular kitchens, elegant bedrooms, and sunlit balconies." },
@@ -10,7 +10,7 @@ import React from "react";
   { src: "/images/7.jpg", title: "Typical Floor Plan", description: "Visual breakdown of each apartment unit per floor including carpet area, utility zones, and common passages." },
   { src: "/images/8.jpg", title: "Area Statement", description: "Project comprises 3 units per floor with options: 1650 SFT (North facing) and 1510 SFT (East facing)." },
   { src: "/images/9.jpg", title: "Project Highlights", description: "Vaastu compliant, quality construction, EV charging, branded lift, rainwater harvesting, and more premium amenities." },
-  { src: "/images/10.jpg", title: "Lifestyle Experience", description: "An unmatched lifestyle with beautiful balconies, serene views, and luxury for the entire family." }
+  { src: "/images/10.jpg", title: " Location Map", description: "Strategically located with seamless connectivity to major landmarks including Old Madras Road, HAL Airport Road, and Indiranagar Metro Station." }
 ];
 
 const Resin = () => {
