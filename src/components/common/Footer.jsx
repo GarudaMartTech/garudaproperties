@@ -22,28 +22,28 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex gap-2 sm:gap-3 mt-6">
             <a
-              href="#"
+              href="https://www.facebook.com/share/1JBqh8mfJi/?mibextid=wwXIfr"
               aria-label="Facebook"
               className="p-2 sm:p-3 bg-[#1877F2] rounded-full hover:bg-[#145dbf] transition duration-300"
             >
               <FiFacebook className="text-white text-base sm:text-lg" />
             </a>
             <a
-              href="#"
+              href="https://x.com/Garudavega2025"
               aria-label="Twitter"
               className="p-2 sm:p-3 bg-[#1DA1F2] rounded-full hover:bg-[#0d8ddb] transition duration-300"
             >
               <FaTwitter className="text-white text-base sm:text-lg" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/garudavega_properties?igsh=MWs2aGxmMGZ5aGw5Zg=="
               aria-label="Instagram"
               className="p-2 sm:p-3 bg-[#E1306C] rounded-full hover:bg-[#c2265c] transition duration-300"
             >
               <FaInstagram className="text-white text-base sm:text-lg" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/garudavega-properties-600634377/"
               aria-label="LinkedIn"
               className="p-2 sm:p-3 bg-[#0A66C2] rounded-full hover:bg-[#004182] transition duration-300"
             >
