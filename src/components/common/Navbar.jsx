@@ -51,13 +51,11 @@ const Navbar = () => {
     >
       {/* ✅ Logo */}
       <Link to="/Home" className="flex-shrink-0 flex-align-center gap-x-1">
-        <img src="/images/GEALLOGO1.png" alt="Logo" className="w-[55px] h-[55px]" />
-        <div className="leading-tight uppercase" style={{ fontFamily: 'Cinzel Decorative' }}>
-          <h1 className="text-xl text-[#174063] font-black tracking-wide">Garudavega Earth & </h1>
-          <p className="text-l text-[#b02c81] text-center tracking-wide font-black">
-            Artha Lysies Pvt Ltd
-          </p>
-        </div>
+        <img
+  src="/images/ppp.png"
+  alt="Garudavega Earth & Artha Lysies"
+  className="h-16 sm:h-14 md:h-16 lg:h-20 w-auto"
+/>
       </Link>
 
       <div className="flex-align-center gap-x-4">
