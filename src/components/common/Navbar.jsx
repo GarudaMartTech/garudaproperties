@@ -51,10 +51,10 @@ const Navbar = () => {
     >
       {/* ✅ Logo */}
       <Link to="/Home" className="flex-shrink-0 flex-align-center gap-x-1">
-        <img src="/images/geal1.png" alt="Logo" className="w-[55px] h-[55px]" />
+        <img src="/images/GEALLOGO1.png" alt="Logo" className="w-[55px] h-[55px]" />
         <div className="leading-tight uppercase" style={{ fontFamily: 'Cinzel Decorative' }}>
-          <h1 className="text-xl text-indigo-900 font-black tracking-wide">Garudavega Earth & </h1>
-          <p className="text-l text-[#D14F92] text-center tracking-wide font-black">
+          <h1 className="text-xl text-[#174063] font-black tracking-wide">Garudavega Earth & </h1>
+          <p className="text-l text-[#b02c81] text-center tracking-wide font-black">
             Artha Lysies Pvt Ltd
           </p>
         </div>

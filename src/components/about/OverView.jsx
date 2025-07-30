@@ -7,7 +7,7 @@ const OverView = () => {
         <div className="flex-1 basis-[18rem]">
           <h1 className="heading">what we do</h1>
           <p className="mt-3">
-            "Garudavega Earth and Artha Laysis Pvt. Ltd. Stands at the forefront
+            "Garudavega Earth and Artha Lysies Pvt. Ltd. Stands at the forefront
             of innovation, turning bold ideas into real-world solutions that
             simplify and elevate daily life.  Garudavega is your trusted partner in bringing visionary
             concepts to life."
