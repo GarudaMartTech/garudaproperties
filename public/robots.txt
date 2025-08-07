@@ -1,0 +1,23 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /404/
+Disallow: /500/
+
+
+Allow: /Home/
+Allow: /about-us/
+Allow: /board%20of%20directors/
+Allow: /residential/
+Allow: /commercial/
+Allow: /plot/
+Allow: /industrial/
+Allow: /property/
+Allow: /blog/
+Allow: /contact/
+Allow: /termcondition/
+Allow: /privacy/
+
+
+
+Sitemap: https://garudaproperties.com/sitemap.xml
+
