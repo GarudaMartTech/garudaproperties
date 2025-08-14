@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-gray-900 text-slate-200 px-6 py-10">
-      <footer className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-10">
-        {/* First Row (Column 1 for mobile, part of 4 cols on larger screens) */}
+      <footer className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-5">
+        {/* Column 1 */}
         <div className="sm:col-span-1">
           <Link to="/" className="flex items-center gap-2 mb-4">
             <BiBuildingHouse className="text-4xl text-primary" />
@@ -20,40 +20,40 @@ const Footer = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-2 sm:gap-3 mt-6">
+          <div className="flex gap-3 mt-6 flex-wrap">
             <a
               href="https://www.facebook.com/share/1JBqh8mfJi/?mibextid=wwXIfr"
               aria-label="Facebook"
-              className="p-2 sm:p-3 bg-[#1877F2] rounded-full hover:bg-[#145dbf] transition duration-300"
+              className="p-2 bg-[#1877F2] rounded-full hover:bg-[#145dbf] transition duration-300"
             >
-              <FiFacebook className="text-white text-base sm:text-lg" />
+              <FiFacebook className="text-white text-lg" />
             </a>
             <a
               href="https://x.com/Garudavega2025"
               aria-label="Twitter"
-              className="p-2 sm:p-3 bg-[#1DA1F2] rounded-full hover:bg-[#0d8ddb] transition duration-300"
+              className="p-2 bg-[#1DA1F2] rounded-full hover:bg-[#0d8ddb] transition duration-300"
             >
-              <FaTwitter className="text-white text-base sm:text-lg" />
+              <FaTwitter className="text-white text-lg" />
             </a>
             <a
               href="https://www.instagram.com/garudavega_properties?igsh=MWs2aGxmMGZ5aGw5Zg=="
               aria-label="Instagram"
-              className="p-2 sm:p-3 bg-[#E1306C] rounded-full hover:bg-[#c2265c] transition duration-300"
+              className="p-2 bg-[#E1306C] rounded-full hover:bg-[#c2265c] transition duration-300"
             >
-              <FaInstagram className="text-white text-base sm:text-lg" />
+              <FaInstagram className="text-white text-lg" />
             </a>
             <a
               href="https://www.linkedin.com/in/garudavega-properties-600634377/"
               aria-label="LinkedIn"
-              className="p-2 sm:p-3 bg-[#0A66C2] rounded-full hover:bg-[#004182] transition duration-300"
+              className="p-2 bg-[#0A66C2] rounded-full hover:bg-[#004182] transition duration-300"
             >
-              <FaLinkedin className="text-white text-base sm:text-lg" />
+              <FaLinkedin className="text-white text-lg" />
             </a>
           </div>
         </div>
 
-        {/* Second Row on mobile (3 columns stacked or grid based on screen) */}
-        <div className="grid grid-cols-3 sm:grid-cols-3 gap-10 sm:col-span-3">
+        {/* Column 2-4 */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:col-span-3">
           {/* Quick Links */}
           <div>
             <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">
@@ -61,26 +61,17 @@ const Footer = () => {
             </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="/about-us"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/about-us" className="hover:text-primary transition duration-300">
                   About Us
                 </a>
               </li>
               <li>
-                <a
-                  href="/services-2"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/services-2" className="hover:text-primary transition duration-300">
                   Services
                 </a>
               </li>
               <li>
-                <a
-                  href="/blog"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/blog" className="hover:text-primary transition duration-300">
                   Blog
                 </a>
               </li>
@@ -89,31 +80,22 @@ const Footer = () => {
 
           {/* Business */}
           <div>
-            <h2 className="text-lg  sm:text-sm font-semibold mb-4 text-white">
+            <h2 className="text-lg sm:text-sm font-semibold mb-4 text-white">
               Business
             </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="/contact"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/contact" className="hover:text-primary transition duration-300">
                   Contact
                 </a>
               </li>
               <li>
-                <a
-                  href="/termcondition"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/termcondition" className="hover:text-primary transition duration-300">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a
-                  href="/privacy"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/privacy" className="hover:text-primary transition duration-300">
                   Privacy Policy
                 </a>
               </li>
@@ -127,26 +109,17 @@ const Footer = () => {
             </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="/faqspage"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="/faqspage" className="hover:text-primary transition duration-300">
                   FAQs
                 </a>
               </li>
               <li>
-                <a
-                  href="tel:+91 6361364607"
-                  className="hover:text-primary transition duration-300"
-                >
+                <a href="tel:+916361364607" className="hover:text-primary transition duration-300">
                   📞 +91 6361364607
                 </a>
               </li>
               <li>
-                <a
-                  href="mailto:info@garudaproperties.com"
-                  className=""
-                >
+                <a href="mailto:info@garudaproperties.com">
                   📧 info@garudaproperties.com
                 </a>
               </li>
@@ -154,6 +127,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
       {/* Bottom Bar */}
       <div className="text-center text-xs mt-10 border-t border-gray-700 pt-4 text-gray-400">
         © {new Date().getFullYear()} |{" "}
